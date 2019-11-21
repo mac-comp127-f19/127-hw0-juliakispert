@@ -10,7 +10,7 @@ public class Area {
      * @return The area
      */
     public static double getSquareArea(double sideLength) {
-        // TODO: replace me with the correct formula
+        // multiples the sides of square which is an input by the user
         return sideLength * sideLength;
     }
 
@@ -20,7 +20,7 @@ public class Area {
      * @return The area
      */
     public static double getCircleArea(double radius) {
-        // TODO: replace me with the correct formula
+        // to find area of the circle mutliples radius by itself twice and then multiplies by pi
         return radius * radius * Math.PI;
     }
 
